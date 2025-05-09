@@ -14,13 +14,13 @@ export default function Home() {
                     </p>
                 </div>
                 <div className='right-column'>
-                    <p>
+                    <p className='p-small-bold'>
                         Collaborating with brands of all sizes around the world,
                         based in Amsterdam. Learn how we can help manage your
                         website, whether it&#39;s a fresh design or improving
                         user acquisition. Contact us for more information.
                     </p>
-                    <div>
+                    <div className='cta-buttons'>
                         <Link href='/'>CONTACT US</Link>
                         <Link href='/'>View Case Studies &rarr;</Link>
                     </div>

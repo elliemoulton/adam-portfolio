@@ -55,8 +55,6 @@
     font-display: swap;
 } */
 
-/*********** FONTS END ***********/
-
 /* came with the demo, uncommented ones that I wanted */
 /* :root {
   --background: #ffffff;
@@ -128,14 +126,14 @@ p {
     line-height: 40px; /* 142.857% */
 }
 
-p .small-bold {
+.p-small-bold {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px; /* 177.778% */
 }
 
-p .small {
+.p-small {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -148,7 +146,7 @@ p .small {
 }
 
 .light-background {
-    background-color: #E9E9E9;
+    background-color: #e9e9e9;
     color: #030e24;
 }
 
@@ -194,16 +192,29 @@ nav ul {
 }
 
 /*********** HOMEPAGE ***********/
-.hero-section{
-  display: flex;
-  justify-content: space-between;
-  padding: 260px 60px 186px;
+.hero-section {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    padding: 260px 60px 186px;
 }
 
-.hero-section .left-column{
-  width: 780px;
+.hero-section .left-column {
+    width: 780px;
 }
 
-.hero-section .right-column{
-  width: 379px;
+.hero-section .left-column h1 {
+    font-size: 136px;
+    font-weight: 400;
+    line-height: 132px; /* 97.059% */
+    letter-spacing: 4.08px;
+    margin-bottom: 72px;
+}
+
+.hero-section .right-column {
+    width: 379px;
+}
+
+.hero-section .right-column .cta-buttons {
+    margin-top: 74px;
 }
