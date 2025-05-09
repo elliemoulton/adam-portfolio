@@ -1,42 +1,209 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*********** FONTS ***********/
+@font-face {
+    font-family: 'PP Neue Montreal Book';
+    src: url(../../public/fonts/PPNeueMontreal-Book.woff2) format('woff2'),
+        url(../../public/fonts/PPNeueMontreal-Book.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url(../../public/fonts/PPNeueMontreal-Italic.woff2) format('woff2'),
+        url(../../public/fonts/PPNeueMontreal-Italic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url(../../public/fonts/PPNeueMontreal-Bold.woff2) format('woff2'),
+        url(../../public/fonts/PPNeueMontreal-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url(../../public/fonts/PPNeueMontreal-SemiBolditalic.woff2)
+            format('woff2'),
+        url(../../public/fonts/PPNeueMontreal-SemiBolditalic.woff)
+            format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url(../../public/fonts/PPNeueMontreal-Medium.woff2) format('woff2'),
+        url(../../public/fonts/PPNeueMontreal-Medium.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url(../../public/fonts/PPNeueMontreal-Thin.woff2) format('woff2'),
+        url(../../public/fonts/PPNeueMontreal-Thin.woff) format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+} */
+
+/*********** FONTS END ***********/
+
+/* came with the demo, uncommented ones that I wanted */
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
+/*********** GLOBAL STYLES ***********/
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* color: var(--foreground);
+  background: var(--background); */
+    font-family: 'PP Neue Montreal Book', sans-serif;
+    /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px; /* 112.5% */
+    letter-spacing: 2.4px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+h2 {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 123.81% */
+}
+
+h3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 142.857% */
+}
+
+h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 244.444% */
+    letter-spacing: 0.36px;
+}
+
+p {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 142.857% */
+}
+
+p .small-bold {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+}
+
+p .small {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.dark-background {
+    background-color: #030e24;
+    color: #e9e9e9;
+}
+
+.light-background {
+    background-color: #E9E9E9;
+    color: #030e24;
+}
+
+/*********** HEADER ***********/
+header {
+    padding: 36px 60px 10px 30px;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 30px 30px 10px 30px;
+}
+
+nav .contact {
+    border: #e9e9e9 1px solid;
+    padding: 10px 22px;
+}
+
+nav a {
+    color: #e9e9e9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    text-decoration: none;
+}
+
+nav ul {
+    align-items: center;
+    display: inline-flex;
+    gap: 60px;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+/*********** HOMEPAGE ***********/
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 260px 60px 186px;
+}
+
+.hero-section .left-column{
+  width: 780px;
+}
+
+.hero-section .right-column{
+  width: 379px;
 }
