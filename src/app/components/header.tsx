@@ -34,7 +34,9 @@ export default function Header() {
                             <Link href='/'>About</Link>
                         </li>
                         <li>
-                            <Link href='/' className='contact'>Contact Us</Link>
+                            <Link href='/' className='contact-cta'>
+                                Contact Us
+                            </Link>
                         </li>
                     </ul>
                 </nav>

@@ -140,6 +140,10 @@ p {
     line-height: 28px; /* 175% */
 }
 
+a {
+    text-decoration: none;
+}
+
 .dark-background {
     background-color: #030e24;
     color: #e9e9e9;
@@ -159,6 +163,7 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    line-height: 44px;
 }
 
 nav .logo {
@@ -168,9 +173,10 @@ nav .logo {
     padding: 30px 30px 10px 30px;
 }
 
-nav .contact {
+.contact-cta {
     border: #e9e9e9 1px solid;
     padding: 10px 22px;
+    display: inline-block;
 }
 
 nav a {
@@ -178,8 +184,6 @@ nav a {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 177.778% */
-    text-decoration: none;
 }
 
 nav ul {
@@ -215,6 +219,18 @@ nav ul {
     width: 379px;
 }
 
-.hero-section .right-column .cta-buttons {
+.hero-section .right-column .cta-links {
     margin-top: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 44px;
+}
+
+.hero-section a {
+    color: #e9e9e9;
+}
+
+.hero-section .case-studies-cta {
+    border: #e9e9e9 1px solid;
 }

@@ -20,9 +20,9 @@ export default function Home() {
                         website, whether it&#39;s a fresh design or improving
                         user acquisition. Contact us for more information.
                     </p>
-                    <div className='cta-buttons'>
-                        <Link href='/'>CONTACT US</Link>
-                        <Link href='/'>View Case Studies &rarr;</Link>
+                    <div className='cta-links'>
+                        <Link href='/' className='contact-cta'>CONTACT US</Link>
+                        <Link href='/' className='case-studies-cta'>View Case Studies &rarr;</Link>
                     </div>
                 </div>
             </div>
