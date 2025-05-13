@@ -36,6 +36,35 @@ export default function Home() {
                     <ImageCarousel />
                 </div>
             </div>
+            <div className='light-background our-services'>
+                <div className='text-block'>
+                    <h2>Our Services</h2>
+                    <h3>Web Design & Development</h3>
+                    <p>
+                        We create visually compelling, responsive websites that
+                        not only look great but are built to perform. From
+                        design to development, we ensure your site aligns with
+                        your brand and meets your business goals.
+                    </p>
+                    <Link href='/'>Learn More &nbsp; &rarr;</Link>
+                    <h3>SEO & Content Marketing</h3>
+                    <p>
+                        Our SEO strategies are designed to increase your online
+                        visibility and drive qualified users to your site. We
+                        optimize your site’s content, structure, and technical
+                        elements to improve search engine rankings.
+                    </p>
+                    <Link href='/'>Learn More &nbsp; &rarr;</Link>
+                    <h3>Web Design & Development</h3>
+                    <p>
+                        We focus on enhancing the user experience by making your
+                        website intuitive, easy to navigate, and engaging. Our
+                        goal is to create seamless interactions that keep users
+                        satisfied and encourage conversions.
+                    </p>
+                    <Link href='/'>Learn More &nbsp; &rarr;</Link>
+                </div>
+            </div>
         </>
     );
 }
