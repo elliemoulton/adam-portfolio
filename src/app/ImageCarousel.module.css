@@ -1,0 +1,31 @@
+/* Hides anything that overflows the carousel container (to clip the scrolling images) */
+.carouselWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* This is the "track" that scrolls continuously to the left */
+.carouselTrack {
+    align-items: center;
+    display: flex; /* Makes children appear in a horizontal row */
+    white-space: nowrap; /* Prevents wrapping to the next line */
+    animation: scroll 15s linear infinite; /* Scrolls smoothly from left to right endlessly */
+}
+
+/* Each image container in the carousel */
+.carouselItem {
+    flex: 0 0 auto; /* Prevents the items from shrinking or growing */
+    margin-right: 120px; /* Adds spacing between each image */
+}
+
+/* The scroll animation moves the track from its original position to halfway left */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(
+            -50%
+        ); /* Adjust this if your duplicated content is more/less than 2x */
+    }
+}
