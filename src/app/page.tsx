@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import ImageCarousel from './components/ImageCarousel';
+import CaseStudiesCard from './components/CaseStudiesCard';
 
 export default function Home() {
     return (
@@ -36,7 +37,7 @@ export default function Home() {
                     <ImageCarousel />
                 </div>
             </div>
-            <div className='light-background our-services'>
+            <div className='light-background our-services-block'>
                 <div className='text-block'>
                     <h2>Our Services</h2>
                     <h3>Web Design & Development</h3>
@@ -51,8 +52,8 @@ export default function Home() {
                     <p>
                         Our SEO strategies are designed to increase your online
                         visibility and drive qualified users to your site. We
-                        optimize your site’s content, structure, and technical
-                        elements to improve search engine rankings.
+                        optimize your site&#39;s content, structure, and
+                        technical elements to improve search engine rankings.
                     </p>
                     <Link href='/'>Learn More &nbsp; &rarr;</Link>
                     <h3>Web Design & Development</h3>
@@ -64,6 +65,13 @@ export default function Home() {
                     </p>
                     <Link href='/'>Learn More &nbsp; &rarr;</Link>
                 </div>
+            </div>
+            <div className='dark-background case-studies-block'>
+                <h2>
+                    Learn more about how we work. Explore case studies from some
+                    of our latest projects.
+                </h2>
+                <CaseStudiesCard />
             </div>
         </>
     );
