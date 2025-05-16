@@ -277,16 +277,16 @@ nav ul {
 }
 
 .case-studies-block {
-    display: flex;
-    padding: 100px 60px 110px 60px;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 100px;
     align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 60px 110px 60px;
 }
 
 .case-studies-block h2 {
-    width: 780px;
+    align-self: flex-end;
     font-size: 53px;
     line-height: 64px; /* 120.755% */
+    width: 780px;
 }

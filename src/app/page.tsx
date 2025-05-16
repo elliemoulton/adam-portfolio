@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import ImageCarousel from './components/ImageCarousel';
-import CaseStudiesCard from './components/CaseStudiesCard';
+import CaseStudiesCards from './components/CaseStudiesCards';
 
 export default function Home() {
     return (
@@ -71,7 +71,8 @@ export default function Home() {
                     Learn more about how we work. Explore case studies from some
                     of our latest projects.
                 </h2>
-                <CaseStudiesCard />
+                <CaseStudiesCards />
+                    <Link href='/'>View All Case Studies &nbsp; &rarr;</Link>
             </div>
         </>
     );
