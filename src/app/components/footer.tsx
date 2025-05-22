@@ -33,13 +33,13 @@ export default function Footer() {
                             <p className='subtitle'>Resources</p>
                             <ul>
                                 <li>
-                                    <Link href='/'>Pricing</Link>
+                                    <Link href='/pricing'>Pricing</Link>
                                 </li>
                                 <li>
                                     <Link href='/case-studies'>Case Studies</Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>About</Link>
+                                    <Link href='/about'>About</Link>
                                 </li>
                                 <li>
                                     <Link href='/'>Contact</Link>

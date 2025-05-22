@@ -1,24 +1,29 @@
 import Link from 'next/link';
 
 type BreadcrumbsProps = {
-    subtitle: string;
-    subtitleLink: string;
-    currentPage: string;
-    currentPageLink: string;
+    subtitle0: string;
+    subtitleLink0: string;
+    subtitle1?: string;
+    subtitleLink1?: string;
 };
 
 export default function Breadcrumbs({
-    subtitle,
-    subtitleLink,
-    currentPage,
-    currentPageLink,
+    subtitle0,
+    subtitleLink0,
+    subtitle1,
+    subtitleLink1,
 }: BreadcrumbsProps) {
     return (
         <div className='breadcrumbs'>
             <div className='content'>
                 <Link href='/'>Home</Link> /{' '}
-                <Link href={subtitleLink}>{subtitle}</Link> /{' '}
-                <Link href={currentPageLink}>{currentPage}</Link>
+                <Link href={subtitleLink0}>{subtitle0}</Link>
+                {subtitle1 && subtitleLink1 && (
+                    <>
+                        {' / '}
+                        <Link href={subtitleLink1}>{subtitle1}</Link>
+                    </>
+                )}
             </div>
         </div>
     );

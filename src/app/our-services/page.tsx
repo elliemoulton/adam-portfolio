@@ -1,13 +1,13 @@
 import Breadcrumbs from '../components/Breadcrumbs';
 import SubPageTitle from '../components/SubPageTitle';
 
-const subtitle0 = 'Case Studies';
+const subtitle0 = 'Our Services';
 const subtitleLink0 = '/case-studies';
 
-export default function CaseStudies() {
+export default function OurServices() {
     return (
         <>
-            <div className='light-background sub-page case-studies-page '>
+            <div className='light-background sub-page our-services-page'>
                 <div className='content'>
                     <Breadcrumbs
                         subtitle0={subtitle0}

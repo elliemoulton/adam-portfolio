@@ -22,16 +22,16 @@ export default function Header() {
                     </p>
                     <ul>
                         <li>
-                            <Link href='/'>Our Services</Link>
+                            <Link href='/our-services'>Our Services</Link>
                         </li>
                         <li>
-                            <Link href='/'>Pricing</Link>
+                            <Link href='/pricing'>Pricing</Link>
                         </li>
                         <li>
                             <Link href='/case-studies'>Case Studies</Link>
                         </li>
                         <li>
-                            <Link href='/'>About</Link>
+                            <Link href='/about'>About</Link>
                         </li>
                         <li>
                             <Link href='/' className='contact-cta'>

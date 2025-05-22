@@ -434,7 +434,7 @@ footer .footer-lower .copyright-links {
 /*********** BREADCRUMBS ***********/
 .breadcrumbs {
     font-size: 18px;
-    margin-bottom: 60px
+    padding: 40px 0 60px;
 }
 
 .breadcrumbs a {
@@ -442,6 +442,13 @@ footer .footer-lower .copyright-links {
 }
 
 /*********** CASE STUDIES ***********/
-.case-studies-page{
-    padding-top: 40px;
+.sub-page h1 {
+    font-size: 136px;
+    line-height: 132px; /* 97.059% */
+    letter-spacing: 4.08px;
+    padding-bottom: 80px;
+}
+
+.sub-page hr {
+    border: 1px solid #030e24;
 }
