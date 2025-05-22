@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import ImageCarousel from './components/ImageCarousel';
 import CaseStudiesCards from './components/CaseStudiesCards';
+import ContactForm from './components/ContactForm';
 
 export default function Home() {
     return (
@@ -115,53 +116,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='content contact-block'>
-                    {/* <Image
-                        src='/imgs/getintouch-desktop.svg'
-                        alt='Get in Touch'
-                        width={1320}
-                        height={791}
-                    /> */}
-                    <form action='/' method='POST' className='light-background'>
-                        <div className='form-content'>
-                            <h2>Contact Us</h2>
-                            <label htmlFor='name'>Name</label>
-                            <input
-                                type='text'
-                                id='name'
-                                name='name'
-                                className='input'
-                                required
-                            />
-                            <label htmlFor='email'>Email</label>
-                            <input
-                                type='email'
-                                id='email'
-                                name='email'
-                                className='input'
-                                required
-                            />
-                            <label htmlFor='message'>How Can We Help?</label>
-                            <select
-                                id='message'
-                                name='message'
-                                className='input'
-                                required
-                            >
-                                <option value='' disabled selected>
-                                    {' '}
-                                </option>
-                                <option value='Web Design'>Web Design</option>
-                                <option value='SEO'>SEO</option>
-                                <option value='Content Marketing'>
-                                    Content Marketing
-                                </option>
-                                <option value='Other'>Other</option>
-                            </select>
-                            <div>
-                                <button type='submit'>SUBMIT</button>
-                            </div>
-                        </div>
-                    </form>
+                    <ContactForm />
                 </div>
             </div>
         </>

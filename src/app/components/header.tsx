@@ -14,7 +14,7 @@ export default function Header() {
                 />
             </Head>
             <header className='dark-background'>
-                <nav>
+                <nav className='content'>
                     <p>
                         <Link href='/' className='logo'>
                             Moulton / Marketing
@@ -28,7 +28,7 @@ export default function Header() {
                             <Link href='/'>Pricing</Link>
                         </li>
                         <li>
-                            <Link href='/'>Case Studies</Link>
+                            <Link href='/case-studies'>Case Studies</Link>
                         </li>
                         <li>
                             <Link href='/'>About</Link>
