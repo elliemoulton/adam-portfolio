@@ -118,10 +118,26 @@ a {
     color: #e9e9e9;
 }
 
+.dark-background a {
+    color: #e9e9e9;
+}
+
+.dark-background .contact-cta {
+    border: #e9e9e9 1px solid;
+}
+
 .light-background {
     background-color: #e9e9e9;
     color: #030e24;
 }
+.light-background a {
+    color: #030e24;
+}
+
+.light-background .contact-cta {
+    border: #030e24 1px solid;
+}
+
 .content {
     width: 1320px;
     margin: auto;
@@ -146,18 +162,13 @@ nav .logo {
 }
 
 .contact-cta {
-    border: #e9e9e9 1px solid;
+    /* border: #e9e9e9 1px solid; */
     padding: 10px 22px;
     display: inline-block;
 }
 
-nav a {
-    color: #e9e9e9;
-    font-size: 18px;
-    font-style: normal;
-}
-
 nav ul {
+    font-size: 18px;
     align-items: center;
     display: inline-flex;
     gap: 60px;
@@ -441,7 +452,51 @@ footer .footer-lower .copyright-links {
     color: #030e24;
 }
 
-/*********** CASE STUDIES ***********/
+.breadcrumbs .underline {
+    border-bottom: 1px solid #030e24;
+}
+
+/*********** CASE STUDIES PAGE ***********/
+.case-studies-page {
+    padding: 80px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 200px;
+}
+
+.case-studies-page .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.case-studies-page .text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.case-studies-page .text-wrapper .titles {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.case-studies-page .text-wrapper .description {
+    display: flex;
+    width: 580px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+/* ***************************************************************** */
 .sub-page h1 {
     font-size: 136px;
     line-height: 132px; /* 97.059% */

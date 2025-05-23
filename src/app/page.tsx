@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import ImageCarousel from './components/ImageCarousel';
-import CaseStudiesCards from './components/CaseStudiesCards';
+import HomepageCaseStudiesCards from './components/HomepageCaseStudiesCards';
 import ContactForm from './components/ContactForm';
 
 export default function Home() {
@@ -79,7 +79,7 @@ export default function Home() {
                         Learn more about how we work. Explore case studies from
                         some of our latest projects.
                     </h2>
-                    <CaseStudiesCards />
+                    <HomepageCaseStudiesCards />
                     <Link href='/'>View All Case Studies &nbsp; &rarr;</Link>
                 </div>
                 <div className=' about-block content'>

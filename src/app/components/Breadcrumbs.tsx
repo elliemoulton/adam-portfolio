@@ -17,11 +17,18 @@ export default function Breadcrumbs({
         <div className='breadcrumbs'>
             <div className='content'>
                 <Link href='/'>Home</Link> /{' '}
-                <Link href={subtitleLink0}>{subtitle0}</Link>
+                <Link
+                    href={subtitleLink0}
+                    className={!subtitle1 ? 'underline' : ''}
+                >
+                    {subtitle0}
+                </Link>
                 {subtitle1 && subtitleLink1 && (
                     <>
                         {' / '}
-                        <Link href={subtitleLink1}>{subtitle1}</Link>
+                        <Link href={subtitleLink1} className='underline'>
+                            {subtitle1}
+                        </Link>
                     </>
                 )}
             </div>

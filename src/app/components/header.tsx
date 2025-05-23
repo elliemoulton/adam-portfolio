@@ -1,7 +1,13 @@
+'use client';
+
 import Head from 'next/head';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+    const pathname = usePathname();
+    const isHomePage = pathname === '/';
+
     return (
         <>
             <Head>
@@ -13,7 +19,7 @@ export default function Header() {
                     crossOrigin='anonymous'
                 />
             </Head>
-            <header className='dark-background'>
+            <header className={isHomePage ? 'dark-background' : 'light-background'}>
                 <nav className='content'>
                     <p>
                         <Link href='/' className='logo'>
