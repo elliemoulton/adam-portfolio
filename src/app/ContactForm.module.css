@@ -1,0 +1,55 @@
+
+
+.form {
+    background-color: #e9e9e9;
+    border-radius: 12px;
+    color: #030e24;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 32px 36px 32px;
+    width: 944px;
+}
+
+.form h2 {
+    color: #030e24;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 120.755% */
+}
+
+.form label {
+    color: #030e24;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 142.857% */
+}
+
+.form .input {
+    height: 54px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 32, 91, 0.24);
+    font-family: 'PP Neue Montreal Book', sans-serif;
+    color: #030e24;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.form button {
+    align-items: flex-end;
+    background: #030e24;
+    border: none;
+    color: #e9e9e9;
+    display: block;
+    font-family: 'PP Neue Montreal Book', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    justify-self: end;
+    letter-spacing: 0.36px;
+    line-height: 44px; /* 244.444% */
+    padding: 10px 52px;
+    text-align: center;
+    text-transform: uppercase;
+}

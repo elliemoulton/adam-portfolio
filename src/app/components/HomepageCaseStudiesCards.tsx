@@ -3,7 +3,7 @@ import styles from '../CaseStudiesCards.module.css';
 
 const cards = [
     {
-        src: '/imgs/casestudies-processcoffee.svg',
+        src: '/imgs/homepage/casestudies-processcoffee.svg',
         width: 865,
         height: 452,
         alt: 'Process Coffee Logo',
@@ -11,7 +11,7 @@ const cards = [
         description: 'Web Design & Development',
     },
     {
-        src: '/imgs/casestudies-sofi.svg',
+        src: '/imgs/homepage/casestudies-sofi.svg',
         width: 424,
         height: 226,
         alt: 'Sofi Logo',
@@ -19,7 +19,7 @@ const cards = [
         description: 'SEO & Content Marketing',
     },
     {
-        src: '/imgs/casestudies-ups.svg',
+        src: '/imgs/homepage/casestudies-ups.svg',
 
         width: 424,
         height: 226,
@@ -28,7 +28,7 @@ const cards = [
         description: 'User Experience (UX)',
     },
     {
-        src: '/imgs/casestudies-studiokohler.svg',
+        src: '/imgs/homepage/casestudies-studiokohler.svg',
         width: 865,
         height: 452,
         alt: 'Studio Kohler Logo',

@@ -4,28 +4,38 @@ import Image from 'next/image';
 import styles from '../ImageCarousel.module.css';
 
 const logos = [
-    { src: '/imgs/light-sofi.svg', width: 272, height: 73, alt: 'Sofi Logo' },
-    { src: '/imgs/light-ups.svg', width: 144, height: 169, alt: 'UPS Logo' },
     {
-        src: '/imgs/light-marriott.svg',
+        src: '/imgs/carousel-logos/sofi.svg',
+        width: 272,
+        height: 73,
+        alt: 'Sofi Logo',
+    },
+    {
+        src: '/imgs/carousel-logos/ups.svg',
+        width: 144,
+        height: 169,
+        alt: 'UPS Logo',
+    },
+    {
+        src: '/imgs/carousel-logos/marriott.svg',
         width: 232,
         height: 207,
         alt: 'Marriott Logo',
     },
     {
-        src: '/imgs/light-norwegian.svg',
+        src: '/imgs/carousel-logos/norwegian.svg',
         width: 365,
         height: 145,
         alt: 'Norwegian Cruise Line Logo',
     },
     {
-        src: '/imgs/light-aa.svg',
+        src: '/imgs/carousel-logos/american-airlines.svg',
         width: 345,
         height: 133,
         alt: 'American Airlines Logo',
     },
     {
-        src: '/imgs/light-studiokohler.svg',
+        src: '/imgs/carousel-logos/studio-kohler.svg',
         width: 480,
         height: 59,
         alt: 'Studio Kohler Logo',

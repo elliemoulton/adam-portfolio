@@ -1,5 +1,4 @@
-import Breadcrumbs from '../components/Breadcrumbs';
-import SubPageTitle from '../components/SubPageTitle';
+import Breadcrumbs from '../components/BreadcrumbsSubpageTitle';
 
 const subtitle0 = 'Pricing';
 const subtitleLink0 = '/pricing';
@@ -13,7 +12,6 @@ export default function Pricing() {
                         subtitle0={subtitle0}
                         subtitleLink0={subtitleLink0}
                     />
-                    <SubPageTitle subtitle0={subtitle0} />
                 </div>
             </div>
         </>

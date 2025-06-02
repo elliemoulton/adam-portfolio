@@ -1,15 +1,17 @@
+import styles from '../ContactForm.module.css';
+
 export default function ContactForm() {
     return (
         <>
-            <form action='/' method='POST' className='light-background'>
-                <div className='form-content'>
+            <div className={styles.formWrapper}>
+                <form action='/' method='POST' className={styles.form}>
                     <h2>Contact Us</h2>
                     <label htmlFor='name'>Name</label>
                     <input
                         type='text'
                         id='name'
                         name='name'
-                        className='input'
+                        className={styles.input}
                         required
                     />
                     <label htmlFor='email'>Email</label>
@@ -17,14 +19,14 @@ export default function ContactForm() {
                         type='email'
                         id='email'
                         name='email'
-                        className='input'
+                        className={styles.input}
                         required
                     />
                     <label htmlFor='message'>How Can We Help?</label>
                     <select
                         id='message'
                         name='message'
-                        className='input'
+                        className={styles.input}
                         required
                     >
                         <option defaultValue='' disabled>
@@ -44,8 +46,8 @@ export default function ContactForm() {
                     <div>
                         <button type='submit'>SUBMIT</button>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </>
     );
 }
