@@ -386,7 +386,6 @@ footer .footer-lower .copyright-links {
     background-repeat: no-repeat;
 }
 
-
 /*********** BREADCRUMBS ***********/
 .breadcrumbs {
     font-size: 18px;
@@ -462,6 +461,24 @@ footer .footer-lower .copyright-links {
     font-weight: 500;
     line-height: 40px; /* 142.857% */
     letter-spacing: 0.56px;
+}
+
+.contact-form-block {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 100px 60px;
+    gap: 100px;
+}
+
+.contact-form-block h2 {
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; 
+    margin-bottom: 36px;
+    width: 780px;
 }
 
 /* ***************************************************************** */

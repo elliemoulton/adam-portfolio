@@ -24,7 +24,7 @@ const cards = [
         title: 'Studio KOHLER',
         subtitle: 'Web Design & UX',
         description:
-            'We redesigned Studio KOHLER\'s homepage to improve user flows and encourage new and returning users to more efficiently achieve their goals. A follow-up UX audit was conducted to improve the product saving experience.',
+            "We redesigned Studio KOHLER's homepage to improve user flows and encourage new and returning users to more efficiently achieve their goals. A follow-up UX audit was conducted to improve the product saving experience.",
     },
     {
         src: '/imgs/case-studies-page/process-coffee.svg',
@@ -40,6 +40,7 @@ export default function CaseStudiesPageCards() {
     return (
         <>
             <div className='content case-studies-page'>
+            {/* <div className='content'> */}
                 {[...cards].map((card, index) => (
                     <div key={index} className='cards-wrapper'>
                         <div>
