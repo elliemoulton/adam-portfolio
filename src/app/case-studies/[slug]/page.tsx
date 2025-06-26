@@ -1,5 +1,5 @@
-// Update the import path if the file is actually located elsewhere, for example:
 import { caseStudiesData } from '../../data/casestudiesdata';
+import Breadcrumbs from '@/app/components/Breadcrumbs';
 
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -29,11 +29,17 @@ export default function CaseStudyPage({
         <>
             <div className='light-background'>
                 <div className='content'>
+                    <Breadcrumbs
+                        subtitle0='Case Studies'
+                        subtitleLink0='/case-studies'
+                        subtitle1={caseStudy.title}
+                        subtitleLink1={`/case-studies/${caseStudy.slug}`}
+                    />
                     <h1>{caseStudy.title}</h1>
                     <p>{caseStudy.subtitle}</p>
                     <Image
-                        src={caseStudy.src}
-                        alt={caseStudy.alt}
+                        src={caseStudy.caseStudiesImage.src}
+                        alt={caseStudy.caseStudiesImage.alt}
                         width={400}
                         height={200}
                     />

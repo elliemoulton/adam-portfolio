@@ -1,81 +1,55 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../CaseStudiesCards.module.css';
-
-const cards = [
-    {
-        src: '/imgs/homepage/casestudies-processcoffee.svg',
-        width: 865,
-        height: 452,
-        alt: 'Process Coffee Logo',
-        title: 'Process Coffee Roasters',
-        description: 'Web Design & Development',
-    },
-    {
-        src: '/imgs/homepage/casestudies-sofi.svg',
-        width: 424,
-        height: 226,
-        alt: 'Sofi Logo',
-        title: 'SoFi',
-        description: 'SEO & Content Marketing',
-    },
-    {
-        src: '/imgs/homepage/casestudies-ups.svg',
-
-        width: 424,
-        height: 226,
-        alt: 'UPS Logo',
-        title: 'UPS',
-        description: 'User Experience (UX)',
-    },
-    {
-        src: '/imgs/homepage/casestudies-studiokohler.svg',
-        width: 865,
-        height: 452,
-        alt: 'Studio Kohler Logo',
-        title: 'Studio KOHLER',
-        description: 'Web Design & UX',
-    },
-];
+import { caseStudiesData } from '../data/casestudiesdata';
 
 export default function CaseStudiesCards() {
     return (
         <>
             <div className={styles.row}>
-                {[...cards].slice(0, 2).map((card, index) => (
-                    <div key={index} className={styles.card}>
+                {[...caseStudiesData].slice(0, 2).map((study, index) => (
+                    <Link
+                        href={`/case-studies/${study.slug}`}
+                        key={index}
+                        className={styles.card}
+                    >
                         <div>
                             <Image
-                                src={card.src}
-                                width={card.width}
-                                height={card.height}
-                                alt={card.alt}
+                                src={study.homepageImage.src}
+                                width={study.homepageImage.width}
+                                height={study.homepageImage.height}
+                                alt={study.homepageImage.alt}
                                 priority
                             />
                         </div>
                         <div className={styles.textWrapper}>
-                            <h3>{card.title}</h3>
-                            <p>{card.description}</p>
+                            <h3>{study.title}</h3>
+                            <p>{study.description}</p>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
             <div className={styles.row}>
-                {[...cards].slice(2, 4).map((card, index) => (
-                    <div key={index} className={styles.card}>
+                {[...caseStudiesData].slice(2, 4).map((study, index) => (
+                    <Link
+                        href={`/case-studies/${study.slug}`}
+                        key={index}
+                        className={styles.card}
+                    >
                         <div>
                             <Image
-                                src={card.src}
-                                width={card.width}
-                                height={card.height}
-                                alt={card.alt}
+                                src={study.homepageImage.src}
+                                width={study.homepageImage.width}
+                                height={study.homepageImage.height}
+                                alt={study.homepageImage.alt}
                                 priority
                             />
                         </div>
                         <div className={styles.textWrapper}>
-                            <h3>{card.title}</h3>
-                            <p>{card.description}</p>
+                            <h3>{study.title}</h3>
+                            <p>{study.description}</p>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </>
