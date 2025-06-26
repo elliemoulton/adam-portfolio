@@ -7,7 +7,7 @@ type BreadcrumbsProps = {
     subtitleLink1?: string;
 };
 
-export default function BreadcrumbsSubpageTitle({
+export default function Breadcrumbs({
     subtitle0,
     subtitleLink0,
     subtitle1,
@@ -32,12 +32,6 @@ export default function BreadcrumbsSubpageTitle({
                             </Link>
                         </>
                     )}
-                </div>
-            </div>
-            <div className='sub-page'>
-                <div className='content'>
-                    <h1>{subtitle0}</h1>
-                    <hr />
                 </div>
             </div>
         </>

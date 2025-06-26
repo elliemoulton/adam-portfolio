@@ -1,4 +1,4 @@
-import Breadcrumbs from '../../components/BreadcrumbsSubpageTitle';
+import Breadcrumbs from '../../components/Breadcrumbs';
 import SubPageContactFormBlock from '@/app/components/SubPageContactFormBlock';
 
 const subtitle0 = 'Case Studies';

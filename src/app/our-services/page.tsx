@@ -1,4 +1,4 @@
-import Breadcrumbs from '../components/BreadcrumbsSubpageTitle';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const subtitle0 = 'Our Services';
 const subtitleLink0 = '/case-studies';
@@ -12,6 +12,8 @@ export default function OurServices() {
                         subtitle0={subtitle0}
                         subtitleLink0={subtitleLink0}
                     />
+                    <h1>{subtitle0}</h1>
+                    <hr />
                 </div>
             </div>
         </>
