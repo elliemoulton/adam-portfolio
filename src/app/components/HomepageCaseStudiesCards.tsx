@@ -24,7 +24,7 @@ export default function CaseStudiesCards() {
                         </div>
                         <div className={styles.textWrapper}>
                             <h3>{study.title}</h3>
-                            <p>{study.description}</p>
+                            <p>{study.subtitle}</p>
                         </div>
                     </Link>
                 ))}
@@ -47,7 +47,7 @@ export default function CaseStudiesCards() {
                         </div>
                         <div className={styles.textWrapper}>
                             <h3>{study.title}</h3>
-                            <p>{study.description}</p>
+                            <p>{study.subtitle}</p>
                         </div>
                     </Link>
                 ))}
