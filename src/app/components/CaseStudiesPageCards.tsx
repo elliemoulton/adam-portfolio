@@ -7,8 +7,8 @@ export default function CaseStudiesPageCards() {
     return (
         <>
             <div className='content case-studies-page'>
-                {[...caseStudiesData].map((study, index) => (
-                    <div key={index} className='cards-wrapper'>
+                {[...caseStudiesData].map((study) => (
+                    <div key={study.slug} className='cards-wrapper'>
                         <div>
                             <Image
                                 src={study.caseStudiesImage.src}
