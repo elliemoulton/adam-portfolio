@@ -5,7 +5,7 @@ import SubPageContactFormBlock from '../components/SubPageContactFormBlock';
 export default function CaseStudiesPage() {
     return (
         <>
-            <div className='light-background sub-page'>
+            <div className='light-background subpage'>
                 <div className='content'>
                     <Breadcrumbs
                         items={[

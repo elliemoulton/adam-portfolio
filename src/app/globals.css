@@ -8,14 +8,14 @@
     font-display: swap;
 }
 
-/* @font-face {
+@font-face {
     font-family: 'PP Neue Montreal';
     src: url(../../public/fonts/PPNeueMontreal-Bold.woff2) format('woff2'),
         url(../../public/fonts/PPNeueMontreal-Bold.woff) format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-} */
+}
 
 @font-face {
     font-family: 'PP Neue Montreal';
@@ -396,8 +396,9 @@ footer .footer-lower .copyright-links {
     color: #030e24;
 }
 
-.breadcrumbs .underline {
+.breadcrumbs .last-child {
     border-bottom: 1px solid #030e24;
+    font-weight: 700;
 }
 
 /*********** CASE STUDIES PAGE ***********/
@@ -477,19 +478,41 @@ footer .footer-lower .copyright-links {
     font-size: 53px;
     font-style: normal;
     font-weight: 400;
-    line-height: 64px; 
+    line-height: 64px;
     margin-bottom: 36px;
     width: 780px;
 }
 
 /* ***************************************************************** */
-.sub-page h1 {
+.subpage h1 {
     font-size: 136px;
     letter-spacing: 4.08px;
     line-height: 132px; /* 97.059% */
     padding-bottom: 80px;
 }
 
-.sub-page hr {
+.subpage hr {
     border: 1px solid #030e24;
+}
+
+/********* OUR SERVICES SUB PAGE *********/
+.our-services-subpage .light-background {
+    padding: 100px 0 216px;
+}
+
+.our-services-subpage h1 {
+    color: #173c88;
+    font-size: 136px;
+    font-weight: 700;
+    letter-spacing: 4.08px;
+    line-height: 132px; /* 97.059% */
+    margin: 40px 0 240px;
+    text-align: center;
+}
+
+.our-services-subpage h2 {
+    color: #173c88;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 40px; /* 75.472% */
 }

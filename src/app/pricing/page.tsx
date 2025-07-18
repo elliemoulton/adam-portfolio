@@ -3,7 +3,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 export default function Pricing() {
     return (
         <>
-            <div className='light-background sub-page pricing-page'>
+            <div className='light-background subpage pricing-page'>
                 <div className='content'>
                     <Breadcrumbs
                         items={[

@@ -21,7 +21,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
                         <Link
                             href={item.href}
                             className={
-                                index === items.length - 1 ? 'underline' : ''
+                                index === items.length - 1 ? 'last-child' : ''
                             }
                         >
                             {item.label}
