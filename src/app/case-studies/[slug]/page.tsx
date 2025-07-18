@@ -30,10 +30,16 @@ export default function CaseStudyPage({
             <div className='light-background'>
                 <div className='content'>
                     <Breadcrumbs
-                        subtitle0='Case Studies'
-                        subtitleLink0='/case-studies'
-                        subtitle1={caseStudy.title}
-                        subtitleLink1={`/case-studies/${caseStudy.slug}`}
+                        items={[
+                            {
+                                label: 'Case Studies',
+                                href: '/case-studies',
+                            },
+                            {
+                                label: caseStudy.title,
+                                href: `/case-studies/${caseStudy.slug}`,
+                            },
+                        ]}
                     />
                     <h1>{caseStudy.title}</h1>
                     <p>{caseStudy.subtitle}</p>

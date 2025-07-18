@@ -2,7 +2,7 @@ import Breadcrumbs from '@/app/components/Breadcrumbs';
 import OurServicesSubpage from '../../components/OurServicesSubpage';
 
 
-export default function WebDesignAndDevelopmentPage() {
+export default function SeoAndContentMarketingPage() {
     return (
         <>
             <div className='our-services-subpage'>
@@ -15,13 +15,13 @@ export default function WebDesignAndDevelopmentPage() {
                                     href: '/our-services',
                                 },
                                 {
-                                    label: 'Web Design and Development',
-                                    href: '/our-services/web-design-and-development',
+                                    label: 'SEO and Content Marketing',
+                                    href: '/our-services/seo-and-content-marketing',
                                 },
                             ]}
                         />
                         <OurServicesSubpage
-                            title='Web Design and Development'
+                            title='SEO and Content Marketing'
                             subtitle='Our Process'
                         />
                     </div>

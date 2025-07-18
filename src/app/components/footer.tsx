@@ -12,20 +12,24 @@ export default function Footer() {
                             </p>
                         </div>
                         <div>
-                            <p className='subtitle'>Our Services</p>
+                            <Link href='/our-services'>
+                                <p className='subtitle'>Our Services</p>
+                            </Link>
                             <ul>
                                 <li>
-                                    <Link href='/'>
+                                    <Link href='/our-services/web-design-and-development'>
                                         Web Design & Development
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>
+                                    <Link href='/our-services/seo-and-content-marketing'>
                                         SEO & Content Marketing
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/'>User Experience (UX)</Link>
+                                    <Link href='/our-services/user-experience'>
+                                        User Experience (UX)
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -36,7 +40,9 @@ export default function Footer() {
                                     <Link href='/pricing'>Pricing</Link>
                                 </li>
                                 <li>
-                                    <Link href='/case-studies'>Case Studies</Link>
+                                    <Link href='/case-studies'>
+                                        Case Studies
+                                    </Link>
                                 </li>
                                 <li>
                                     <Link href='/about'>About</Link>
