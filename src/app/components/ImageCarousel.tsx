@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import styles from '../ImageCarousel.module.css';
+import styles from '../styles/ImageCarousel.module.css';
 
 const logos = [
     {

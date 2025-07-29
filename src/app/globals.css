@@ -495,24 +495,4 @@ footer .footer-lower .copyright-links {
     border: 1px solid #030e24;
 }
 
-/********* OUR SERVICES SUB PAGE *********/
-.our-services-subpage .light-background {
-    padding: 100px 0 216px;
-}
 
-.our-services-subpage h1 {
-    color: #173c88;
-    font-size: 136px;
-    font-weight: 700;
-    letter-spacing: 4.08px;
-    line-height: 132px; /* 97.059% */
-    margin: 40px 0 240px;
-    text-align: center;
-}
-
-.our-services-subpage h2 {
-    color: #173c88;
-    font-size: 53px;
-    font-weight: 700;
-    line-height: 40px; /* 75.472% */
-}

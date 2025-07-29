@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../CaseStudiesCards.module.css';
+import styles from '../styles/CaseStudiesCards.module.css';
 import { caseStudiesData } from '../data/casestudiesdata';
 
 export default function CaseStudiesCards() {

@@ -23,6 +23,28 @@ export default function UserExperiencePage() {
                         <OurServicesSubpage
                             title='User Experience (UX)'
                             subtitle='Our Process'
+                            services={[
+                                {
+                                    title: 'Brand Alignment',
+                                    description:
+                                        'We work with you to understand your goals and plan the best approach for your website.',
+                                },
+                                {
+                                    title: 'Wireframing',
+                                    description:
+                                        'Our team creates visually appealing and user-friendly designs tailored to your brand.',
+                                },
+                                {
+                                    title: 'High Fidelity Prototyping',
+                                    description:
+                                        'We build fast, responsive, and accessible websites using modern technologies.',
+                                },
+                                {
+                                    title: 'Development',
+                                    description:
+                                        'After launch, we provide ongoing support and maintenance to ensure your site’s success.',
+                                },
+                            ]}
                         />
                     </div>
                 </div>
