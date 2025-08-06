@@ -18,4 +18,48 @@
     font-size: 53px;
     font-weight: 700;
     line-height: 40px; /* 75.472% */
+    margin-bottom: 104px;
+}
+
+.ourServicesSubpage .services {
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourServicesSubpage .service:nth-child(2) {
+    margin-left: 287px;
+}
+
+.ourServicesSubpage .service:nth-child(3) {
+    margin-left: 574px;
+}
+
+.ourServicesSubpage .service:nth-child(4) {
+    align-self: end;
+}
+
+.ourServicesSubpage .service {
+    width: 460px;
+}
+
+.ourServicesSubpage .services h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px; /* 142.857% */
+}
+
+.ourServicesSubpage .techStack {
+    padding: 319px 0 216px;
+    text-align: center;
+}
+
+.ourServicesSubpage .techStack .techStackImages {
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.ourServicesSubpage .techStack .techStackImage {
+    width: auto;
 }
