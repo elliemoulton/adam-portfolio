@@ -33,6 +33,20 @@ export default function OurServicesSubpage(props: OurServicesSubpageProps) {
                             <p>{service.description}</p>
                         </div>
                     ))}
+                    <Image
+                        src='/imgs/mvector.svg'
+                        alt='Vector Illustration'
+                        width={206}
+                        height={571}
+                        className={styles.vector1}
+                    />
+                    <Image
+                        src='/imgs/mvector.svg'
+                        alt='Vector Illustration'
+                        width={206}
+                        height={571}
+                        className={styles.vector2}
+                    />
                 </div>
                 <div className={styles.techStack}>
                     <h2>Our Tech Stack</h2>

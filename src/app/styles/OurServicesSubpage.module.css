@@ -25,6 +25,7 @@
     gap: 100px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .ourServicesSubpage .service:nth-child(2) {
@@ -49,8 +50,21 @@
     line-height: 40px; /* 142.857% */
 }
 
+.ourServicesSubpage .vector1 {
+    position: absolute;
+    top: 0;
+    align-self: end;
+}
+
+.ourServicesSubpage .vector2 {
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    top: 300px;
+}
+
 .ourServicesSubpage .techStack {
-    padding: 319px 0 216px;
+    padding: 419px 0 216px;
     text-align: center;
 }
 
