@@ -4,17 +4,15 @@
 }
 
 .ourServicesSubpage h1 {
-    color: #173c88;
     font-size: 136px;
     font-weight: 700;
     letter-spacing: 4.08px;
     line-height: 132px; /* 97.059% */
-    margin: 40px 0 240px;
+    padding: 40px 0 240px;
     text-align: center;
 }
 
 .ourServicesSubpage h2 {
-    color: #173c88;
     font-size: 53px;
     font-weight: 700;
     line-height: 40px; /* 75.472% */
@@ -50,13 +48,13 @@
     line-height: 40px; /* 142.857% */
 }
 
-.ourServicesSubpage .vector1 {
+.ourServicesSubpage .blueVector1 {
     position: absolute;
     top: 0;
     align-self: end;
 }
 
-.ourServicesSubpage .vector2 {
+.ourServicesSubpage .blueVector2 {
     position: absolute;
     transform: rotate(90deg);
     transform-origin: bottom left;
@@ -76,4 +74,23 @@
 
 .ourServicesSubpage .techStack .techStackImage {
     width: auto;
+}
+
+.ourServicesSubpage .caseStudies {
+    padding-top: 140px;
+}
+
+.ourServicesSubpage .caseStudies h2 {
+    text-align: center;
+    font-size: 136px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132px; /* 97.059% */
+    letter-spacing: 4.08px;
+}
+
+.ourServicesSubpage .caseStudies .whiteVector {
+    width: 100vw;
+    margin: auto auto -7px auto;
+    display: block;
 }
